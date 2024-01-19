@@ -7,7 +7,6 @@
 
 ON_TAX = 0.13
 DISCOUNT = 0.05
-
 def main():
     item_price = float(input("Enter the price of the item: "))
 
@@ -16,4 +15,5 @@ def main():
     final_price = price_after_discount + item_tax
     print("Final price for item is ${:.2f}".format(final_price))
 
-
+if __name__ == "__main__":
+    main()
